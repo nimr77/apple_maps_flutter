@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.5.0
+
+* Swift Package Manager support (requires Flutter 3.44+); CocoaPods podspec kept in sync
+
 ## 1.4.0
 
 * Flutter 3.27.1 compatibility, replace `ui.hash*` with `Object.hash*

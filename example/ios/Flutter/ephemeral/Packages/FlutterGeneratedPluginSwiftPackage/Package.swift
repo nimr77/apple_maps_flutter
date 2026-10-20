@@ -15,16 +15,11 @@ let package = Package(
         .library(name: "FlutterGeneratedPluginSwiftPackage", type: .static, targets: ["FlutterGeneratedPluginSwiftPackage"])
     ],
     dependencies: [
-        .package(name: "apple_maps_flutter", path: "../.packages/apple_maps_flutter"),
-        .package(name: "FlutterFramework", path: "../.packages/FlutterFramework")
+        
     ],
     targets: [
         .target(
-            name: "FlutterGeneratedPluginSwiftPackage",
-            dependencies: [
-                .product(name: "apple-maps-flutter", package: "apple_maps_flutter"),
-                .product(name: "FlutterFramework", package: "FlutterFramework")
-            ]
+            name: "FlutterGeneratedPluginSwiftPackage"
         )
     ]
 )
